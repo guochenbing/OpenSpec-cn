@@ -26,13 +26,13 @@ link:
 
 # Remove the global link for this package
 unlink:
-	npm unlink --global @studyzy/openspec-cn || true
+	npm unlink --global @guochenbing/openspec-cn || true
 
 # Simple clean placeholder (extend as needed)
 clean:
 	rm -rf node_modules dist
 
-# Release a new version to npm (publishes @studyzy/openspec-cn)
+# Release a new version to npm (publishes @guochenbing/openspec-cn)
 release:
 	$(PNPM) run release:local
 

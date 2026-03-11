@@ -23,6 +23,7 @@ import { githubCopilotAdapter } from './adapters/github-copilot.js';
 import { iflowAdapter } from './adapters/iflow.js';
 import { kilocodeAdapter } from './adapters/kilocode.js';
 import { kiroAdapter } from './adapters/kiro.js';
+import { micodeAdapter } from './adapters/micode.js';
 import { opencodeAdapter } from './adapters/opencode.js';
 import { piAdapter } from './adapters/pi.js';
 import { qoderAdapter } from './adapters/qoder.js';
@@ -55,6 +56,7 @@ export class CommandAdapterRegistry {
     CommandAdapterRegistry.register(iflowAdapter);
     CommandAdapterRegistry.register(kilocodeAdapter);
     CommandAdapterRegistry.register(kiroAdapter);
+    CommandAdapterRegistry.register(micodeAdapter);
     CommandAdapterRegistry.register(opencodeAdapter);
     CommandAdapterRegistry.register(piAdapter);
     CommandAdapterRegistry.register(qoderAdapter);

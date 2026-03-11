@@ -21,6 +21,7 @@ export { githubCopilotAdapter } from './github-copilot.js';
 export { iflowAdapter } from './iflow.js';
 export { kilocodeAdapter } from './kilocode.js';
 export { kiroAdapter } from './kiro.js';
+export { micodeAdapter } from './micode.js';
 export { opencodeAdapter } from './opencode.js';
 export { piAdapter } from './pi.js';
 export { qoderAdapter } from './qoder.js';
